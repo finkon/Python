@@ -11,13 +11,13 @@ while no_of_goes <6:
     guess = int(input("Take a guess:") )
 
     if guess < number:
-        print("You're too low")
+        print("You're too low. Better luck next time")
 
     elif guess > number:
-        print("You're too high")     
+        print("You're too high. Better luck next time")     
 
     elif guess == number:
         print("Good job,", myName, "You guessed my number")
     else:
-       print("Better luck next time")
+       print("Sorry, I don't recognise that number")
     break
